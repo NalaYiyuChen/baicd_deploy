@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,279 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
+
+.parent{
+  display: grid;
+  grid-template-columns:
+    repeat(auto-fit,minmax(350px, 1fr));
+
+  /* padding: 5%; */
+  grid-row-gap: 2em;
+  grid-column-gap: 2em;
+  text-align: justify;
+  /* margin-left: 8%;
+  margin-right: 8%; */
+  margin-top: 3%;
+}
+
+.castIntroTitle{
+  text-align: center;
+}
+
+.castImage {
+  display: "flex";
+  justify-content: "center";
+}
+
+.App {
+  text-align: center;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  background-color: #f8f7f6;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* .bannerDumb{ */
+  /* width: 100%; */
+  /* margin: 0px 15%; */
+  /* display: flex;
+  text-align: center; */
+  /* object-fit: contain;
+} */
+.allLinks{
+  color: black;
+  /* text-decoration: none; */
+  font-weight: bold;
+  padding: 0px 3px;
+}
+.allLinks:hover{
+  color:aqua;
+  background-color: #109c85;
+  border-radius: 5px;
+  box-shadow: 2px 2px 1px 0.5px rgba(0, 0, 255, .2);
+  /* box-shadow: -1.5px -1.5px 2px 1px rgba(160, 60, 255, .2); */
+  padding: 0px 3px;
+  /* margin: 0.2px; */
+  text-align: center;
+  text-decoration: none;
+  /* display: inline-block; */
+}
+.mediaText {
+  /* padding: 10px 300px; */
+  text-align: left;
+}
+p.mediaInquiry{
+  /* font-size: 18px; */
+  /* font-weight: bold; */
+  text-align: justify;
+}
+.ticketTexts{
+  font-size: 15px;
+  padding: 0px 350px;
+  text-align: justify;
+  /* font-family: 'Times New Roman', Times, serif; */
+}
+.defaultFont{
+  font-family: "Noto Sans TC", sans-serif;
+}
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  text-align: justify;
+}
+.blogPost{
+  font-family: "Noto Sans TC", sans-serif;
+  text-align: justify;
+  width: 100%;
+}
+.blogText{
+  font-family: "Noto Sans TC", sans-serif;
+  text-align: justify;
+  max-width: 100%;
+}
+.castIntroText{
+  font-size: larger;
+  font-family: "Noto Sans TC", sans-serif;
+}
+.defaultFontXLarge{
+  font-size: x-large;
+  font-family: "Noto Sans TC", sans-serif;
+}
+.pageTitles{
+  font-size: large;
+  font-family: "Noto Sans TC", sans-serif;
+  color: #986C4A;
+}
+
+.reviewTexts{
+  font-size: medium;
+  font-family: "Noto Sans TC", sans-serif;
+  /* text-align: justify; */
+}
+.linkReview{
+  padding: 32px 0px 8px 0px;
+  text-align: justify;
+  font-family: "Noto Sans TC", sans-serif;
+}
+.booking-form{
+  background-color: rgb(236, 230, 222);
+  padding: 25px 40px;
+  display: inline-block;
+  text-align: justify;
+  margin: 45px 0px;
+}
+.bookingText{
+  text-align: center;
+  padding: 10px 350px;
+}
+.booking-disclaimer {
+  text-align: left;
+}
+.leftColContact{
+  float: left;
+  padding: 15px;
+}
+.rightColContact{
+  float: left;
+  padding: 15px;
+}
+.bottomContact{
+  padding: 15px;
+}
+.dropDown{
+  background-color: rgb(221, 208, 191);
+}
+/* Im not sure if lines 144-146 actually do anything */
+/* .dropDown:hover, .dropDown-content {
+  position: relative;
+  display: inline-block;
+} */
+.dropDown-content a:hover {
+  background-color: #f1f1f1
+}
+.signUpBox{
+  float: right;
+  margin-top: 25px;
+}
+#sign-up{
+  background-color: rgb(221, 208, 191);
+}
+.submitButton{
+  float: right;
+  margin-top: 25px;
+  padding: 16px 32px;
+  background-color: #c26120;
+  border: none;
+  color: whitesmoke;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.messagesBox{
+  width: 100%;
+  float: left;
+}
+#messages{
+  margin: 75px 0px 0px 0px;
+  border: 1.5px solid rgb(146, 130, 119);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+.form-padding *{
+  padding: 6px 165px 3px 6px;
+}
+#name, #email, #phoneNum, #inquiryChoice{
+  margin: 23px 0;
+  border: 1.5px solid rgb(146, 130, 119);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+input[type=text]{
+  width: 100%;
+  box-sizing: border-box;
+  background-color: rgb(221, 208, 191);
+  font-size: 16px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+#inquiryChoice{
+  width: 100%;
+  box-sizing: border-box;
+  background-color: rgb(221, 208, 191);
+  font-size: 16px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  /* -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none; */
+}
+#inquiryChoice *{
+  width: 100%;
+}
+input[type=text]:focus {
+  border: 3px solid #f3eeee;
+}
+select{
+  width: 100%;
+  box-sizing: border-box;
+  background-color: rgb(221, 208, 191);
+  font-size: 16px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  /* -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none; */
+  margin: 23px 0;
+  border: 1.5px solid rgb(146, 130, 119);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  -webkit-appearance: menulist-button;
+  color: grey;
+}
+option[value="1"], option[value="2"], option[value="3"], option[value="4"], option[value="5"]{
+  color: black;
 }
