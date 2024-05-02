@@ -19,11 +19,14 @@ const Navbar = () => {
 
 				<NavMenu>
 					<NavLink to="/about" >
-						<img src={"baicd_logo"} alt="logo" height="125px" width="auto"/>
+						<img src={baicd_logo} alt="logo" height="125px" width="auto"/>
 					</NavLink>
 					<NavLink to="/about" >
 						ABOUT
 					</NavLink>
+					<NavLink to="/contact" activeStyle>
+						CONTACT/BOOKING
+					</NavLink> 
 					{/* <NavLink to="/cast" activeStyle>
 						CAST AND CREW
 					</NavLink>
@@ -35,10 +38,8 @@ const Navbar = () => {
 					</NavLink>
 					<NavLink to="/media" activeStyle>
 						MEDIA COVERAGE
-					</NavLink>
-					<NavLink to="/contact" activeStyle>
-						CONTACT/BOOKING
-					</NavLink> */}
+	</NavLink>*/}
+
 				</NavMenu>
 			</Nav>
 		</>

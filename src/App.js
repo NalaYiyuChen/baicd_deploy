@@ -19,9 +19,9 @@ function App() {
 		<Router>
 			<Navbar />
 			<Routes>
-				<Route path="/baicd_deploy" element={<About />} />
+				<Route path="/" element={<About />} />
 				<Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} /> 
+        		<Route path="/contact" element={<Contact />} /> 
 				{/* <Route
 					path="/blog"
 					element={<Blog />}
