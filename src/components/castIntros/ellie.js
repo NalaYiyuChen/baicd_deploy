@@ -39,11 +39,7 @@ const Ellie = () => {
             college, Ellie has performed with various student groups 
             in ballet, contemporary, Chinese dance, and hip hop. She 
             is currently Executive Director of Cardinal Ballet Company, 
-            Stanford’s only student-run ballet company.
-
-
-
-
+            Stanford's only student-run ballet company.
             </div>
         </div>
     );

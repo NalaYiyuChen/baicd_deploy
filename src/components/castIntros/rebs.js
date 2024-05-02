@@ -39,7 +39,7 @@ const Rebs = () => {
             creating and supporting theatre that is intersectional in 
             both representation, language and artistic form.
 
-            They are currently Berkeley Repertory Theatre’s Peter F. 
+            They are currently Berkeley Repertory Theatre's Peter F. 
             Sloss Artistic Fellow. They also serve as a reader for 
             Off-Broadway Playwrights Horizons in New York. Rebs has 
             written and presented original work through Yun Theatre, 
