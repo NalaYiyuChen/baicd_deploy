@@ -9,6 +9,7 @@ import {
 	// NavBtn,
 	// NavBtnLink,
 } from "../Navbar/navbarElements";
+import baicd_logo from "../../images/baicd_logo.png"
 
 const Navbar = () => {
 	return (
@@ -18,7 +19,7 @@ const Navbar = () => {
 
 				<NavMenu>
 					<NavLink to="/about" >
-						<img src= "baicd_logo.png" alt="logo" height="125px" width="auto"/>
+						<img src={"baicd_logo"} alt="logo" height="125px" width="auto"/>
 					</NavLink>
 					<NavLink to="/about" >
 						ABOUT
