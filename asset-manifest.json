@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "/baicd_deploy/static/css/main.98a1a592.chunk.css",
-    "main.js": "/baicd_deploy/static/js/main.868f7d30.chunk.js",
-    "main.js.map": "/baicd_deploy/static/js/main.868f7d30.chunk.js.map",
-    "runtime-main.js": "/baicd_deploy/static/js/runtime-main.dc64504d.js",
-    "runtime-main.js.map": "/baicd_deploy/static/js/runtime-main.dc64504d.js.map",
-    "static/js/2.a65dc804.chunk.js": "/baicd_deploy/static/js/2.a65dc804.chunk.js",
-    "static/js/2.a65dc804.chunk.js.map": "/baicd_deploy/static/js/2.a65dc804.chunk.js.map",
-    "static/js/3.967eaa51.chunk.js": "/baicd_deploy/static/js/3.967eaa51.chunk.js",
-    "static/js/3.967eaa51.chunk.js.map": "/baicd_deploy/static/js/3.967eaa51.chunk.js.map",
-    "index.html": "/baicd_deploy/index.html",
-    "precache-manifest.bd0e56ada8285c939637c51ccd40a987.js": "/baicd_deploy/precache-manifest.bd0e56ada8285c939637c51ccd40a987.js",
-    "service-worker.js": "/baicd_deploy/service-worker.js",
-    "static/css/main.98a1a592.chunk.css.map": "/baicd_deploy/static/css/main.98a1a592.chunk.css.map",
-    "static/js/2.a65dc804.chunk.js.LICENSE.txt": "/baicd_deploy/static/js/2.a65dc804.chunk.js.LICENSE.txt",
-    "static/media/BAICD_BannerImage.png": "/baicd_deploy/static/media/BAICD_BannerImage.a84a1a24.png"
+    "main.css": "/static/css/main.98a1a592.chunk.css",
+    "main.js": "/static/js/main.95f28272.chunk.js",
+    "main.js.map": "/static/js/main.95f28272.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.cd343ca3.js",
+    "runtime-main.js.map": "/static/js/runtime-main.cd343ca3.js.map",
+    "static/js/2.67b2ab73.chunk.js": "/static/js/2.67b2ab73.chunk.js",
+    "static/js/2.67b2ab73.chunk.js.map": "/static/js/2.67b2ab73.chunk.js.map",
+    "static/js/3.38ea3564.chunk.js": "/static/js/3.38ea3564.chunk.js",
+    "static/js/3.38ea3564.chunk.js.map": "/static/js/3.38ea3564.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.a5c7ccf674f9a05a1c0ca283160ddb04.js": "/precache-manifest.a5c7ccf674f9a05a1c0ca283160ddb04.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.98a1a592.chunk.css.map": "/static/css/main.98a1a592.chunk.css.map",
+    "static/js/2.67b2ab73.chunk.js.LICENSE.txt": "/static/js/2.67b2ab73.chunk.js.LICENSE.txt",
+    "static/media/BAICD_BannerImage.png": "/static/media/BAICD_BannerImage.a84a1a24.png",
+    "static/media/baicd_logo.png": "/static/media/baicd_logo.affa6c52.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.dc64504d.js",
-    "static/js/2.a65dc804.chunk.js",
+    "static/js/runtime-main.cd343ca3.js",
+    "static/js/2.67b2ab73.chunk.js",
     "static/css/main.98a1a592.chunk.css",
-    "static/js/main.868f7d30.chunk.js"
+    "static/js/main.95f28272.chunk.js"
   ]
 }
