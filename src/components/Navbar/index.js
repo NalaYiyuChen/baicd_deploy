@@ -25,6 +25,10 @@ const Navbar = () => {
 						ABOUT
 					</NavLink>
 
+					<NavLink to="/media" activeStyle>
+						MEDIA COVERAGE
+					</NavLink>
+
 					<NavLink to="/tickets" activeStyle>
 						TICKETS/DONATE
 					</NavLink>
@@ -41,9 +45,7 @@ const Navbar = () => {
 					</NavLink>
 					
 					
-					<NavLink to="/media" activeStyle>
-						MEDIA COVERAGE
-	</NavLink>*/}
+					*/}
 
 				</NavMenu>
 			</Nav>
