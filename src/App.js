@@ -12,7 +12,7 @@ import Blog from "./pages/blog";
 // import Cast from "./pages/cast";
 import Contact from "./pages/contact";
 // import Media from "./pages/media";
-// import Tickets from "./pages/tickets";
+import Tickets from "./pages/tickets";
 
 function App() {
 	return (
@@ -21,6 +21,7 @@ function App() {
 			<Routes>
 				<Route path="/" element={<About />} />
 				<Route path="/about" element={<About />} />
+				<Route path="/tickets" element={<Tickets />}/>
 				<Route path="/blog" element={<Blog />} />
         		<Route path="/contact" element={<Contact />} /> 
 				
@@ -30,10 +31,7 @@ function App() {
 					element={<Cast />}
 				/>
 				<Route path="/media" element={<Media />} />
-				<Route
-					path="/tickets"
-					element={<Tickets />}
-  />*/}
+				*/}
 				
 			</Routes>
 		</Router>
