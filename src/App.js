@@ -9,7 +9,7 @@ import {
 // import Home from "./pages";
 import About from "./pages/about";
 import Blog from "./pages/blog";
-// import Cast from "./pages/cast";
+import Cast from "./pages/cast";
 import Contact from "./pages/contact";
 import Media from "./pages/media";
 import Tickets from "./pages/tickets";
@@ -21,19 +21,11 @@ function App() {
 			<Routes>
 				<Route path="/" element={<About />} />
 				<Route path="/about" element={<About />} />
+				<Route path="/cast" element={<Cast />} />
 				<Route path="/media" element={<Media />} />
 				<Route path="/tickets" element={<Tickets />}/>
 				<Route path="/blog" element={<Blog />} />
-        		<Route path="/contact" element={<Contact />} /> 
-				
-				{/* 
-				<Route
-					path="/cast"
-					element={<Cast />}
-				/>
-				
-				*/}
-				
+        		<Route path="/contact" element={<Contact />} /> 				
 			</Routes>
 		</Router>
 	);
