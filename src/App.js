@@ -8,7 +8,7 @@ import {
 } from "react-router-dom";
 // import Home from "./pages";
 import About from "./pages/about";
-// import Blog from "./pages/blog";
+import Blog from "./pages/blog";
 // import Cast from "./pages/cast";
 import Contact from "./pages/contact";
 // import Media from "./pages/media";
@@ -21,11 +21,10 @@ function App() {
 			<Routes>
 				<Route path="/" element={<About />} />
 				<Route path="/about" element={<About />} />
+				<Route path="/blog" element={<Blog />} />
         		<Route path="/contact" element={<Contact />} /> 
-				{/* <Route
-					path="/blog"
-					element={<Blog />}
-				/>
+				
+				{/* 
 				<Route
 					path="/cast"
 					element={<Cast />}

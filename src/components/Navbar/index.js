@@ -27,15 +27,16 @@ const Navbar = () => {
 					<NavLink to="/contact" activeStyle>
 						CONTACT/BOOKING
 					</NavLink> 
+					<NavLink to="/blog" activeStyle>
+						BLOG: /CHECK-INS
+					</NavLink>
 					{/* <NavLink to="/cast" activeStyle>
 						CAST AND CREW
 					</NavLink>
 					<NavLink to="/tickets" activeStyle>
 						TICKETS/DONATE
 					</NavLink>
-					<NavLink to="/blog" activeStyle>
-						BLOG: /CHECK-INS
-					</NavLink>
+					
 					<NavLink to="/media" activeStyle>
 						MEDIA COVERAGE
 	</NavLink>*/}
