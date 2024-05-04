@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.98a1a592.chunk.css",
+    "main.css": "/static/css/main.30d16881.chunk.css",
     "main.js": "/static/js/main.f39894f4.chunk.js",
     "main.js.map": "/static/js/main.f39894f4.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.782550e8.js",
@@ -10,9 +10,9 @@
     "static/js/3.a1190e02.chunk.js": "/static/js/3.a1190e02.chunk.js",
     "static/js/3.a1190e02.chunk.js.map": "/static/js/3.a1190e02.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.181a5a739a2482e860336cf6834666a1.js": "/precache-manifest.181a5a739a2482e860336cf6834666a1.js",
+    "precache-manifest.610966b5e30a443cccda3a62be20c7e6.js": "/precache-manifest.610966b5e30a443cccda3a62be20c7e6.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.98a1a592.chunk.css.map": "/static/css/main.98a1a592.chunk.css.map",
+    "static/css/main.30d16881.chunk.css.map": "/static/css/main.30d16881.chunk.css.map",
     "static/js/2.3776c154.chunk.js.LICENSE.txt": "/static/js/2.3776c154.chunk.js.LICENSE.txt",
     "static/media/BAICD_BannerImage.png": "/static/media/BAICD_BannerImage.a84a1a24.png",
     "static/media/alexwong_photo.png": "/static/media/alexwong_photo.17b3a03d.png",
@@ -35,7 +35,7 @@
   "entrypoints": [
     "static/js/runtime-main.782550e8.js",
     "static/js/2.3776c154.chunk.js",
-    "static/css/main.98a1a592.chunk.css",
+    "static/css/main.30d16881.chunk.css",
     "static/js/main.f39894f4.chunk.js"
   ]
 }
