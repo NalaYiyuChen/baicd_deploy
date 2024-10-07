@@ -1,8 +1,8 @@
 import React from "react";
 import "./App.css";
+import CastIntroMobile from "./pages/Mobile/castMobile";
 import Navbar from "./components/Navbar";
 import MobileNavbar from "./components/MobileComponents/MobileNavbar"
-// import MobileNavbar from "./components/MobileComponents/Navbar/Navbar";
 import {
 	HashRouter as Router,
 	Routes,
@@ -48,7 +48,8 @@ function mobileSite() {
 			<MobileNavbar />
 			<Routes>
 				<Route path="/" element={<AboutMobile />} />
-				<Route path="/about" element={<AboutMobile />} />			
+				<Route path="/about" element={<AboutMobile />} />	
+				<Route path="/cast" element={<CastIntroMobile />} />
 			</Routes>
 		</Router>
 	);
