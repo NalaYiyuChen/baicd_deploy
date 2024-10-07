@@ -1,16 +1,23 @@
 import React from "react";
 import "./App.css";
-import CastIntroMobile from "./pages/Mobile/castMobile";
 import Navbar from "./components/Navbar";
+
+// Mobile 
+import AboutMobile from "./pages/Mobile/aboutMobile";
+import BlogMobile from "./pages/Mobile/blogMobile";
+import CastIntroMobile from "./pages/Mobile/castMobile";
+import ContactMobile from "./pages/Mobile/contactMobile";
 import MobileNavbar from "./components/MobileComponents/MobileNavbar"
+
 import {
 	HashRouter as Router,
 	Routes,
 	Route,
 } from "react-router-dom";
 // import Home from "./pages";
+
+// Desktop
 import About from "./pages/about";
-import AboutMobile from "./pages/Mobile/aboutMobile";
 import Blog from "./pages/blog";
 import Cast from "./pages/cast";
 import Contact from "./pages/contact";
@@ -50,6 +57,8 @@ function mobileSite() {
 				<Route path="/" element={<AboutMobile />} />
 				<Route path="/about" element={<AboutMobile />} />	
 				<Route path="/cast" element={<CastIntroMobile />} />
+				<Route path="/blog" element={<BlogMobile />} />
+				<Route path="/contact" element={<ContactMobile />} /> 				
 			</Routes>
 		</Router>
 	);
