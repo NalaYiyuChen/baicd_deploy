@@ -45,6 +45,7 @@ function mobileSite() {
 		<Router>
 			<Navbar />
 			<Routes>
+				<Route path="/" element={<AboutMobile />} />
 				<Route path="/about" element={<AboutMobile />} />			
 			</Routes>
 		</Router>
