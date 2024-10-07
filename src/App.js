@@ -7,6 +7,8 @@ import AboutMobile from "./pages/Mobile/aboutMobile";
 import BlogMobile from "./pages/Mobile/blogMobile";
 import CastIntroMobile from "./pages/Mobile/castMobile";
 import ContactMobile from "./pages/Mobile/contactMobile";
+import MediaMobile from "./pages/Mobile/mediaMobile";
+import TicketMobile from "./pages/Mobile/ticketMobile";
 import MobileNavbar from "./components/MobileComponents/MobileNavbar"
 
 import {
@@ -58,6 +60,8 @@ function mobileSite() {
 				<Route path="/about" element={<AboutMobile />} />	
 				<Route path="/cast" element={<CastIntroMobile />} />
 				<Route path="/blog" element={<BlogMobile />} />
+				<Route path="/media" element={<MediaMobile />} />
+				<Route path="/tickets" element={<TicketMobile />}/>
 				<Route path="/contact" element={<ContactMobile />} /> 				
 			</Routes>
 		</Router>
