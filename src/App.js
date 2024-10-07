@@ -1,6 +1,8 @@
 import React from "react";
 import "./App.css";
 import Navbar from "./components/Navbar";
+import MobileNavbar from "./components/MobileComponents/MobileNavbar"
+// import MobileNavbar from "./components/MobileComponents/Navbar/Navbar";
 import {
 	HashRouter as Router,
 	Routes,
@@ -43,7 +45,7 @@ function desktopSite() {
 function mobileSite() {
 	return (
 		<Router>
-			<Navbar />
+			<MobileNavbar />
 			<Routes>
 				<Route path="/" element={<AboutMobile />} />
 				<Route path="/about" element={<AboutMobile />} />			

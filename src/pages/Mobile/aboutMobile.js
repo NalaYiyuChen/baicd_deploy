@@ -28,7 +28,7 @@ const AboutMobile = () => {
       return (
 
         <div style={style.backgroundStyles}>
-            <h1 style={style.headingStyles}> About </h1>
+            <h1 style={style.headingStyles}> <br/><br/> About </h1>
             <div style={style.textStyles}>
             Bay Area Independent Chinese Dancers is a collective of independent Chinese dancers, choreographers, and allied artists who use traditional arts to tell new Bay Area and global stories in our own voices. <br /><br />
 
